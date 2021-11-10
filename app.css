@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1332px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    width: 70%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.image {
+    /* border: 1px solid rgb(255, 102, 0); */
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-size: cover;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.txt {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid
+    red; */
+    padding: 35px;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.subtitle {
+    padding-bottom: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat {
+    display: inline-flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    /* background-color: cadetblue; */
+}
+
+.com {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+}
+
+.bg1 {
+    /* background-color: blueviolet; */
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.bg2 {
+    /* background-color: rgb(155, 149, 161); */
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.bg3 {
+    /* background-color: rgb(52, 114, 65); */
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+p.num {
+    padding-bottom: 5px;
+}
+
+@media (max-width:573px) {
+    body {
+        font-family: 'Inter', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Red Hat Display', sans-serif;
+        background-color: hsl(233, 47%, 7%);
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        font-size: 15px;
+    }
+    .stat {
+        display: block;
+        /* border: 1px solid blueviolet ; */
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        background-color: cadetblue;
+    }
+    .container {
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 10px;
+        width: 70%;
+        height: 90%;
+    }
+    .image {
+        background: url('D:/travish/web developement/frontendmentor/stats-preview-card-component-main/stats-preview-card-component-main/images/image-header-mobile.jpg');
+        overflow: hidden;
+        /* border: 1px solid rgb(255, 102, 0); */
+        width: 100%;
+        height: 50%;
+        float: none;
+        background-size: cover;
+    }
+    .txt {
+        width: 100%;
+        height: 50%;
+        /* border: 1px solid red; */
+        padding: 35px;
+    }
+    .bg1 {
+        text-align: center;
+        /* background-color: blueviolet; */
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    .bg2 {
+        text-align: center;
+        /* background-color: rgb(155, 149, 161); */
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    .bg3 {
+        text-align: center;
+        
+        padding-right: 10px;
+        
+        padding-bottom: 20px;
+    }
+    p.num {
+        padding-bottom: 5px;
+    }
+}
